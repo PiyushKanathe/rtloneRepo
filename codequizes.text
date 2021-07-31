@@ -1,0 +1,10 @@
+https://github.com/bonnie/udemy-TESTING-LIBRARY/tree/master/code-quiz
+
+1) When checkbox is checked the button should be disabled 
+  i) How do you think you could change the checkbox to checked in the tests?
+    -> fireEvent.click
+    -> 2X in the test: once to be disable, once to be re-enable  
+2) Assertions on the button
+  i) expect(button).toBeEnabled()
+  ii) expect(button).toBeDisabled()
+  
