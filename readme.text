@@ -1,0 +1,12 @@
+1) Queries accessible to everyone
+getByRole
+getByLabelText
+getByPlaceholderText
+grtByDisplayValue
+
+2) Semantic Queries
+getByAltText
+getByTitle
+
+3) TestIDs - final solution (Screen reader cant access them, so they should be last resort)
+getByTestId
